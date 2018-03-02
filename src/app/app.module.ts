@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './common/header/header.component';
@@ -14,7 +15,9 @@ import { HeaderComponent } from './common/header/header.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
