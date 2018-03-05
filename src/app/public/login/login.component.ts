@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
       }
       console.error(error);
       this.authService.hasSession = false;
-    }
+    })
     
   }
 
