@@ -12,7 +12,7 @@ export class AuthenticationService {
 
    }
 
-   public isLoggeIn() {
+   public isLoggedIn() {
     const user = this.locker.retrieve('user');
     
     if (!!user) {
